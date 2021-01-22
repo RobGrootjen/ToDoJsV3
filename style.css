@@ -1,0 +1,15 @@
+.container{
+    position: absolute;
+    right: 50%;
+    top: 10%;
+    border: solid black;
+    border-width: 1px;
+}
+
+html{
+    background: linear-gradient(to right, #004cff, #5c8cff, #99b7ff );
+}
+
+h1{
+    text-align: center;
+}
