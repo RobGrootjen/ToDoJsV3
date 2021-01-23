@@ -1,17 +1,40 @@
-.container{
-    position: absolute;
-    right: 50%;
-    top: 10%;
-    border: solid black;
-    border-width: 1px;
-}
-
-html{
-    background: linear-gradient(to right, #004cff, #5c8cff, #99b7ff );
+html, body{
+    background: linear-gradient(to right, #3d89fc, #63a1ff,#a1c6ff);
+    margin: 0;
+    font-family: sans-serif;
 }
 
 h1{
-    text-align: center;
+    position: absolute;
+    right: 50%;
+}
+
+.container{
+    width: 360px;
+    position: absolute;
+    right: 40%;
+    top: 10%;
+}
+
+#maininput{
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#clickersaso{
+    height: 30px;
+    width: 40px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.to-dos{
+    margin-top: 25px;
 }
 
 .paragraph-styling{
