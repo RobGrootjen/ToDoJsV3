@@ -11,7 +11,7 @@ clickerButton.addEventListener('click', function(){
     paragraph.addEventListener('click', function(){
         paragraph.style.textDecoration = 'line-through';
     })
-    paragraph.addEventListener('click', function(){
+    paragraph.addEventListener('dblclick', function(){
         outcomeContainer.removeChild(paragraph);
     })
 
